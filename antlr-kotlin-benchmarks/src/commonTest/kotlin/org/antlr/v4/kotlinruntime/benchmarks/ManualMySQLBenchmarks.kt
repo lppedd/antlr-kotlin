@@ -3,7 +3,6 @@
 package org.antlr.v4.kotlinruntime.benchmarks
 
 import org.antlr.v4.kotlinruntime.benchmarks.mysql.MySQLBenchmarks
-import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.time.Duration
 import kotlin.time.measureTime
@@ -13,7 +12,6 @@ import kotlin.time.measureTime
 //
 // TODO(Edoardo): remove once kotlinx-benchmark properly supports the JS target.
 //  See https://github.com/Kotlin/kotlinx-benchmark/issues/185
-@Ignore
 class ManualMySQLBenchmarks {
   @Test
   fun benchmarks() {
