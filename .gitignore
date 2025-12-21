@@ -143,3 +143,4 @@ Desktop.ini
 .merge_file*
 .idea/
 .kotlin/
+.java-version
